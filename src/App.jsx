@@ -4,7 +4,7 @@ function App() {
   return (
     <div className=" mx-auto font-barley lg:h-[100vh] px-20 grid place-content-center container">
       <div className="grid gap-10 h-max  lg:grid-cols-4 lg:grid-rows-none ">
-        <div className="p-10 bg-slate-500 rounded-3xl lg:col-span-2 flex justify-between flex-col">
+        <div className="p-10 bg-violet-500 rounded-3xl lg:col-span-2 flex justify-between flex-col">
           <div className="flex items-center">
             <img
               src="/imgs/images/image-daniel.jpg"
