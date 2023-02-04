@@ -3,14 +3,14 @@ import quote from "/imgs/images/bg-pattern-quotation.svg"
 
 function App() {
   return (
-    <div className="mx-auto font-barley lg:h-[100vh] grid place-content-center container p-6">
-        <div className="grid gap-6 md:grid-cols-4 md:grid-rows-none bg-opacity-20">
-          <div className="p-6 xl:p-10 bg-violet rounded-xl lg:col-span-2  relative">
+    <div className="mx-auto font-barley lg:h-[100vh] grid place-content-center">
+        <div className="grid gap-6 md:grid-cols-4 md:grid-rows-none container p-4 lg:p-14">
+          <div className="p-6 xl:px-10 xl:py-8 bg-violet rounded-xl lg:col-span-2 relative">
             <img src={quote} alt="#" className="absolute right-6 lg:right-20 top-0 w-40 z-20"/>
             <div className="flex items-center">
               <img
                 src="/imgs/images/image-daniel.jpg"
-                className="rounded-[50%] border-solid border-[4px] border-lightGray w-12"
+                className="rounded-[50%] border-solid border-[2px] border-lightGray w-8"
                 alt=""
               />
               <div className="ml-4 relative z-30">
@@ -33,11 +33,11 @@ function App() {
               careers, working as a Software Engineer at a VR startup. ”
             </p>
           </div>
-          <div className="p-6  bg-darkBlue rounded-xl ">
+          <div className="p-6 xl:px-10 xl:py-8 bg-darkBlue rounded-xl ">
             <div className="flex items-center">
               <img
                 src="/imgs/images/image-jonathan.jpg"
-                className="rounded-[50%] w-12"
+                className="rounded-[50%] w-8"
                 alt=""
               />
               <div className="ml-4">
@@ -54,11 +54,11 @@ function App() {
               the best investments I’ve made in myself. ”
             </p>
           </div>
-          <div className="p-6  bg-wheat rounded-xl ">
+          <div className="p-6 xl:px-10 xl:py-8 bg-wheat rounded-xl ">
             <div className="flex items-center">
               <img
                 src="/imgs/images/image-jeanette.jpg"
-                className="rounded-[50%] w-12"
+                className="rounded-[50%] w-8"
                 alt=""
               />
               <div className="ml-4">
@@ -66,7 +66,7 @@ function App() {
                 <p className="text-white text-xs opacity-50">Verified Graduate</p>
               </div>
             </div>
-            <h1 className="mt-5 font-semibold text-xl">
+            <h1 className="mt-5 font-semibold text-xl text-darkBlue">
               An overall wonderful and rewarding experience
             </h1>
             <p className=" text-white opacity-70 mt-5 text-[13px]">
@@ -75,11 +75,11 @@ function App() {
               ”
             </p>
           </div>
-          <div className="p-6 bg-blackBlue rounded-xl  lg:col-span-2">
+          <div className="p-6 xl:px-10 xl:py-8 bg-blackBlue rounded-xl  lg:col-span-2">
             <div className="flex items-center">
               <img
                 src="/imgs/images/image-patrick.jpg"
-                className="rounded-[50%] border-solid border-[4px] border-violet w-12"
+                className="rounded-[50%] border-solid border-[2px] border-violet w-8"
                 alt=""
               />
               <div className="ml-4">
@@ -101,11 +101,11 @@ function App() {
               community of smart and amazing people. ”
             </p>
           </div>
-          <div className="p-6  bg-wheat rounded-xl  lg:col-start-4 lg:row-span-2 lg:row-start-1">
+          <div className="p-6 xl:px-10 xl:py-8 bg-wheat rounded-xl  lg:col-start-4 lg:row-span-2 lg:row-start-1">
             <div className="flex items-center">
               <img
                 src="/imgs/images/image-kira.jpg"
-                className="rounded-[50%] w-12"
+                className="rounded-[50%] w-8"
                 alt=""
               />
               <div className="ml-4">
@@ -113,7 +113,7 @@ function App() {
                 <p className="text-white text-xs opacity-50">Verified Graduate</p>
               </div>
             </div>
-            <h1 className="mt-5 font-semibold text-xl">
+            <h1 className="mt-5 text-darkBlue font-semibold text-xl">
               Such a life-changing experience. Highly recommended!
             </h1>
             <p className=" text-white opacity-70 mt-5 text-[13px]">
